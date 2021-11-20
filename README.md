@@ -1,2 +1,2 @@
-# protocol-analysis
-A collection of calculations and visualizations for Web3 projects of interest.
+# Protocol Analysis
+A collection of calculations and visualizations for Web3 projects of interest. Written by Matt Harrington (`wimwam.eth`, @0xWimWam).
