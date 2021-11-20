@@ -9,8 +9,8 @@ import numpy as np
 N_STEPS = 20
 
 # Minimum and maximum USD you'd consider allocating to Platypus
-STABLES_MIN = 10**4
-STABLES_MAX = 10**5
+STABLES_MIN = 10**0
+STABLES_MAX = 10**4
 stable_deposit_range = np.arange(STABLES_MIN, STABLES_MAX,
                                  (STABLES_MAX - STABLES_MIN) / N_STEPS)
 
@@ -22,5 +22,5 @@ ptp_market_buy_bankroll_proportion = np.arange(MIN_BANKROLL_PROPORTION_FOR_PTP,
                                             MAX_BANKROLL_PROPORTION_FOR_PTP,
                                             MAX_BANKROLL_PROPORTION_FOR_PTP / N_STEPS)
 
-# Assume staking for a day
-HOURS_SPENT_STAKING = 24
+# Assume staking for a week
+HOURS_SPENT_STAKING = 24 * 7

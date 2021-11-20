@@ -59,7 +59,7 @@ def plot_2d_returns(stable_bankroll, ptp_proportion, returns_array, as_percents 
             cmap=cm.plasma, linewidth=0.5, antialiased=False)
 
     # labels, titles, and axes
-    ax.set_title(f"Monthly Strategy Emissions given PTP staking for {HOURS_SPENT_STAKING} hours")
+    ax.set_title(f"Monthly Strategy Emissions given PTP staking for {round(HOURS_SPENT_STAKING / 24)} Days")
     ax.xaxis.set_major_formatter(EngFormatter(unit="$", places=1, sep="\N{THIN SPACE}"))
     ax.set_xlabel("Strategy Bankroll")
     ax.yaxis.set_major_formatter(PercentFormatter(xmax=1, decimals=1))
