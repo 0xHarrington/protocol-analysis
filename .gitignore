@@ -1,3 +1,8 @@
+# Jupyter notebook static outputs
+.ipynb_checkpoints
+*.html
+*.pdf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
